@@ -1,17 +1,130 @@
-* {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa,
-    Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri,
-    source-sans-pro, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #234ab2;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #003b8e;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(55, 90, 216, 0.544);
+}
+
+h2 {
+  font-size: 2.5em; 
+  font-weight: bold; 
+  color: #003b8e;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #003b8e;
+ 
+}
+.subheading {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #003b8e;
+  margin-top: 20px;
+  display: block; 
+  border-left: 4px solid #003b8e;
+  padding-left: 10px; 
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Links */
+a {
+  color: #003b8e;
+  text-decoration: none;
   font-weight: bold;
 }
-body {
-  margin: 0 auto;
-  width: 50vw;
-  height: 100vh;
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #003b8e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+a.button:hover {
+  background-color: #003b8e;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects */
+.project {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  p {
+      font-size: 1em;
+  }
+}
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background-color: #ffffffde;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-h1 {
-  font-size: 5vw;
+
+footer a {
+  text-decoration: none;
+  color: #003b8e;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
