@@ -1,14 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>make me your own!</h1>
-	<script src="index.js"></script>
+    <h1>Documentation SoSe2024</h1>
+    <p>Hello and welcome! My name is Kateryna Monkova, and this is my Final Portfolio for the Digital Communication course. Here, you'll find the skills and knowledge gained in web design, programming, and AI, along with how they were applied to different digital projects.</p>
+
+    <p>So, what was learned? The basics of HTML and CSS were revisited, building on previous knowledge to design websites that are both attractive and work well on different devices.</p>
+
+    <p>Three main projects were completed:</p>
+    <ul>
+        <li>The first is the Style Detector using Google Teachable Machine. This tool identifies different fashion styles from photos, showing how AI can be used to make interactions more personalized.</li>
+        <li>The second project was a group effort with LLM Ollama AI. We created a bot that allows users to continue their dreams using emojis. It was a fun way to blend creativity with AI, letting people turn their dreams into visual stories.</li>
+        <li>The third project, AI Generative Story, combined ChatGPT and Adobe Firefly to create a unique storytelling experience. We used ChatGPT to write a strange, dream-like story, then had Adobe Firefly turn it into images. To make it more fun, we used Shrek memes as inspiration, adding a playful twist to the visuals.</li>
+    </ul>
+
+    <p>The course also covered how technology can be used in storytelling, mixing technical skills with creativity to produce clear and engaging content.</p>
+
+    <p>Why is this important? These skills are valuable for designers today. Understanding HTML and CSS is useful for web design, and AI offers new ways to create interactive and personalized projects. Each project shows the challenges faced, the solutions found, and the progress made in digital communication. Take a look to see how these skills have developed.</p>
+
+
+    <div class="project">
+        <h2>Google Teachable Machine</h2>
+<p>
+    <span class="subheading">Overview</span>
+   
+
+The Style Detector was developed using Google’s Teachable Machine, an intuitive tool for creating machine learning models without requiring deep technical expertise. The primary objective of the project was to design a tool capable of recognizing different clothing styles, making fashion more accessible and less intimidating for users. This tool allows individuals to upload images of their outfits and receive feedback on whether their clothing aligns with one of four predefined styles: formal, romantic, grunge, and 2000s. 
+<span class="subheading">Learning Outcomes</span>
+
+This project served as an introduction to machine learning using Teachable Machine, emphasizing the importance of data collection, model training, and testing. It highlighted how accessible AI technologies are evolving and how they can be applied to diverse fields such as fashion. We learned about the strengths and limitations of non-code machine learning platforms, gaining insights into the nuances of designing and deploying models in practical applications. <br> Relevance for Designers
+
+For designers, this project underscores the growing relevance of AI-driven tools in creative industries. By integrating machine learning into the design process, it becomes possible to offer personalized recommendations and automate complex decision-making tasks. The project demonstrates that, with the right tools, designers can bridge the gap between technology and creativity, expanding their capabilities to include AI as part of their workflow. This integration is essential as industries increasingly rely on AI to improve user experiences and enhance product design.
+
+<span class="subheading">Project Process</span>
+
+The process began with selecting the fashion styles for the model to recognize, ensuring they were distinct enough to prevent confusion during training. The data consisted of various images representing each style, which were uploaded into Teachable Machine for training. This was followed by an iterative process of testing and retraining to optimize accuracy.
+
+The decision to focus on only four styles was based on practical limitations. Given the novelty of the tool and the simplicity of Teachable Machine, expanding beyond these styles in the first attempt might have resulted in lower accuracy and more overlapping classifications.
+<span class="subheading">Challenges on the way</span>
+
+One of the primary challenges encountered was related to the data quality and labeling. To train the model accurately, it was essential to provide a diverse set of images that clearly represented each style. Mislabeling or insufficient training data led to inaccuracies during testing, requiring several iterations to resolve. Additionally, the limitations of Teachable Machine in handling subtle variations between similar fashion styles became evident, restricting the tool’s ability to classify a wider range of styles effectively.
+
+Another challenge was understanding the balance between simplicity and usability. While the tool was designed to be straightforward, ensuring its practicality for users while maintaining accuracy was a continuous balancing act.
+
+<span class="subheading">Areas for Improvement</span>
+
+There is significant potential for improvement in both the scope and accuracy of the Style Detector. Expanding the number of styles to include more nuanced categories could provide users with more detailed feedback. Moreover, refining the training process through larger datasets and more sophisticated machine learning techniques could enhance the tool’s precision.
+
+In the future, incorporating transfer learning or utilizing more advanced machine learning platforms may allow for a more comprehensive style detection system. Integrating real-time feedback or connecting the tool with e-commerce platforms for personalized shopping recommendations are additional areas worth exploring.
+
+<span class="subheading">Potential Applications</span>
+
+The Style Detector has a range of potential applications, particularly in the fashion and retail industries. It can be used to provide personalized fashion advice, helping users make informed decisions about their outfits for various occasions.
+
+<span class="subheading">Technologies Used</span>
+
+The key technology used in this project was the Google Teachable Machine, a user-friendly platform that allows the creation of machine learning models using images, sounds, or poses. The HTML and CSS skills acquired during the project were instrumental in developing the responsive website that houses the Style Detector tool, ensuring an intuitive user experience across both desktop and mobile devices. Additionally, media queries were employed to achieve a mobile-first, responsive design.
+
+
+
+
+</p>        <a href="https://styleddetector.netlify.app/classify" target="_blank" class="button">Try Style Detector</a>
+    </div>
+    <div class="project">
+        <h2>LLM</h2>
+<p>
+    <span class="subheading">Overview</span>
+The Interactive Dream Assistant was developed using Ollama AI, a large language model platform, as part of a group project. The primary objective was to create a tool that allows users to continue their dreams using emojis, offering a unique and imaginative way to expand personal narratives. Through prompt engineering, we gave the assistant a distinct personality, enhancing the user interaction. This project explores how digital tools can help users connect with their subconscious experiences, transforming abstract dreams into visual storytelling.
+
+<span class="subheading">Learning Outcomes</span>
+
+This project introduced us to working with large language models and the creative potential of prompt engineering. We learned to design engaging and personalized user experiences by combining emojis and natural language processing. The project provided valuable insights into how AI can be used in playful, imaginative contexts, highlighting the importance of creativity when applying advanced machine learning tools for interactive design.
+
+
+<span class="subheading">Project Process</span>
+The development process began with the idea of using emojis to extend dream narratives. We designed prompts that allowed the AI to generate dream continuations, ensuring that the interactions were fluid and personalized. Using Ollama, we experimented with different personality traits for the assistant, creating a more human-like and engaging user experience. The process involved iterative testing to refine the bot’s responses and improve the alignment between dream content and emoji-based storytelling.
+
+<span class="subheading">Challenges on the way</span>
+One of the key challenges was ensuring the assistant’s responses felt organic and coherent with the tone of dream narratives. Balancing creativity and clarity required careful prompt engineering, as some emojis were not nuanced enough to capture complex dream scenarios. Another challenge involved maintaining the assistant’s personality consistency across varied interactions, ensuring the whimsical and imaginative nature of the project was preserved.
+
+<span class="subheading">Areas for Improvement</span>
+There is significant potential for improving the Interactive Dream Assistant by incorporating more advanced language processing techniques. Expanding the variety and emotional depth of emojis could enhance the user experience. Furthermore, adding multimedia elements like sound or animations could enrich the storytelling process. In future versions, using more sophisticated AI platforms could create deeper, more immersive interactions.
+
+<span class="subheading">Potential Applications</span>
+The Interactive Dream Assistant has broad potential applications, particularly in areas like entertainment, creative writing, and mental wellness. It could serve as a creative tool for authors, helping them build narratives from subconscious ideas. The assistant could also be used in mindfulness and dream analysis platforms, providing a playful yet introspective way for users to explore their inner thoughts. This project demonstrates how AI can foster creativity and strengthen the connection between technology and personal experiences.
+
+<span class="subheading">Technologies Used</span>
+The key technology behind this project was Ollama AI, a robust large language model that enabled interactive, narrative-driven user experiences. Prompt engineering played a crucial role in developing the assistant’s personality and ensuring natural dream continuation. The interface was developed using HTML, CSS, and JavaScript, allowing for a seamless and visually engaging user experience. Emojis served as the primary medium for extending dreams, adding a unique and interactive visual element to the project.
+</p>		<a href="https://dreams-translate.netlify.app" target="_blank" class="button">Dream</a>
+    </div>
+    <div class="project">
+        <h2>AI Generative Stories</h2>
+<p>
+    <span class="subheading">Overview</span>
+
+The AI Generative Story project utilized two AI tools simultaneously—ChatGPT and Adobe Firefly. ChatGPT, known for its natural language processing and text generation capabilities, was used to create the narrative, while Adobe Firefly, an AI art generator, brought those stories to life visually. This project aimed to explore how AI-generated stories could serve as prompts for AI tools to generate images that go beyond simple visuals, instead conveying rich, wordless narratives. Continuing our previous theme of dreams, we first used ChatGPT to create a surreal, dreamlike plot and then prompted Adobe Firefly to visualize it. To make the results more distinctive, we incorporated well-known Shrek memes as inspiration, resulting in dream visuals infused with the humorous, recognizable style of those internet references.
+<span class="subheading">Learning Outcomes</span>
+
+This project introduced us to the challenge of blending different AI tools to create cohesive outputs. By working with both ChatGPT for narrative generation and Adobe Firefly for visual rendering, we learned how to bridge the gap between textual and visual storytelling. The project also underscored the importance of specificity in prompting AI models, as carefully crafted text prompts were essential in guiding Adobe Firefly to generate images that captured the dream’s tone and style.
+<span class="subheading">Project Process</span>
+
+
+
+The process began with generating a bizarre and feverish dream plot using ChatGPT, crafting a narrative that felt surreal and rich with visual potential. Once the plot was established, Adobe Firefly was used to create images based on the narrative, guiding the AI with specific prompts to ensure the visuals told the story effectively without words. A key creative decision was to use Shrek memes as inspiration for the visual style, infusing the dream scenes with a playful, meme-like aesthetic. This approach added a layer of humor and cultural reference to the visuals, making them both intriguing and familiar.
+
+<span class="subheading">Challenges on the way</span>
+
+One of the primary challenges was ensuring that the images generated by Adobe Firefly aligned with the narrative created by ChatGPT. Since we were aiming for images that told a story without text, it was crucial to fine-tune our prompts to evoke the right emotions and scenes. Additionally, merging the whimsical nature of Shrek memes with the dreamlike plot added complexity, as we had to balance the humor of the meme references with the surreal tone of the dream.
+
+<span class="subheading">Areas for Improvement</span>
+The AI Generative Story project has the potential for further refinement by exploring more advanced image generation techniques and deeper integration between text and visuals. Future iterations could benefit from more complex prompts and experimenting with different AI platforms to generate visuals with even greater narrative depth. Expanding the range of references or incorporating different visual styles could add more layers to the storytelling.
+
+<span class="subheading">Potential Applications</span>
+The project opens up exciting possibilities for combining AI-generated text and visuals in creative industries. It could be applied to fields such as interactive storytelling, where narratives are brought to life visually in real-time. Additionally, it could serve as a tool for artists, writers, and designers looking for novel ways to visualize ideas or explore narrative-driven content creation. The AI Generative Story illustrates how AI can push the boundaries of storytelling by blending textual and visual elements in imaginative and unexpected ways.
+
+<span class="subheading">Technologies Used</span>
+Two key technologies powered this project: ChatGPT, a language model designed to generate coherent and contextually rich narratives, and Adobe Firefly, an AI tool focused on generating artwork and visual content from textual input. By combining these tools, we were able to create a seamless workflow that translated stories into images. The incorporation of Shrek memes as a visual reference gave the project a distinctive and playful tone, showcasing how AI can be used creatively to infuse humor into dreamlike storytelling.
+
+</p>		<a href="https://generativeai-ft-shrek.netlify.app" target="_blank" class="button">Read me</a>
+	</div>
+
+	<footer>
+		<p>made by <a href="https://www.instagram.com/mokatrrino" target="_blank" class="button">mokatrrino</a></p>
+	  </footer>
+
+
 </body>
 </html>
